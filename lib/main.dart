@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Zalik :)',
       theme: ThemeData(
-        scaffoldBackgroundColor: primaryColor,
+        scaffoldBackgroundColor: backgroundColor,
         primaryColor: primaryColor,
       ),
       home: const HomeScreen(),

@@ -3,8 +3,8 @@ import 'dart:convert';
 
 class MyList {
   String title;
-
-  MyList(this.title);
+  Color color;
+  MyList(this.title, {this.color=Colors.grey});
 }
 
 getList(int number, String side) {
@@ -14,3 +14,4 @@ getList(int number, String side) {
   }
   return elements;
 }
+
